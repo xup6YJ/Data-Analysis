@@ -24,7 +24,6 @@ GEE_function = function(data = data, test_times, variables = variables){
     #'GROUP'
     sub_data[,'Group'] = subdat[,'Group']
     
-    #Change 0~1 or 1~2
     #Add codes if u've got other variables(V3, V4...)
     for (j in 1:test_times) {
       
