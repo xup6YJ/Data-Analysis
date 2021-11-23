@@ -6,7 +6,7 @@ id = levels(as.factor(data[,'ID'])) #id column
 colnames(data)
 
 variables = c('ID','Group', 'Time', 'V1', 'V2')
-#nrow = test times, ncol = number of variables
+
 GEE_function = function(data = data, test_times, variables = variables){
   
   sub_data = matrix(NA, nrow = test_times, ncol = length(variables))
