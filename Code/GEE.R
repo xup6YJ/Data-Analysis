@@ -1,13 +1,13 @@
 
-
+#Read the format of O.csv in the example first
 data = read.csv(file = 'O.csv')
 
 id = levels(as.factor(data[,'ID'])) #id column
 colnames(data)
 
-variables = c('ID','Group', 'Time', 'V1', 'V2')
+measurement_var = c('ID','Group', 'Time', 'V1', 'V2')
 
-GEE_function = function(data = data, test_times, variables = variables){
+GEE_function = function(data = o_data, test_times, variables = measurement_var){
   
   sub_data = matrix(NA, nrow = test_times, ncol = length(variables))
   colnames(sub_data) = variables
@@ -37,7 +37,7 @@ GEE_function = function(data = data, test_times, variables = variables){
       # sub_data[j,'V3'] = subdat[,paste0('V3', j)]
       #'V4'
       # sub_data[j,'V4'] = subdat[,paste0('V4', j)]
-
+      
       #'Time'
       sub_data[j,'Time'] = as.numeric(j)
     }
@@ -46,11 +46,11 @@ GEE_function = function(data = data, test_times, variables = variables){
   }
   
   return(data_info)
-
+  
 }
 
 #Change your times and variables your own
-GEE_function(test_times = 2, variables = variables)
+GEE_data = GEE_function(test_times = 2, variables = variables)
 
-write.csv(data_info, file = 'O_GEE.csv')
+write.csv(GEE_data, file = 'O_GEE.csv')
 
