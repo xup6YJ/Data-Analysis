@@ -9,4 +9,4 @@ Changing original data to GEE data using code ["GEE.R"](https://github.com/xup6Y
 
 # Batch Data Reading and Concatenating
 Read and concatenate all the data in a folder using code ["Folder_data_concat.R"](https://github.com/xup6YJ/Data-Analysis/blob/main/Code/Folder_data_concat.R).
-- All the column(variables) in the folder data should need the same (different columns for different data binding are not allowed).
+- All the columns(variables) in the folder data should need the same (different columns for different data binding are not allowed).
