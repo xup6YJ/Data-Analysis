@@ -16,7 +16,7 @@ Changing original data to GEE data using code ["GEE.R"](https://github.com/xup6Y
 - Remember to read the original format of data ["Regression.csv"](https://github.com/xup6YJ/Data-Analysis/blob/main/Example%20Data/Regression.csv).
 - You should enter your dependent and independent variables.
 - Our example shows a LR result of "V1 ~ Sex + Age + Group + Hypertension", "V2 ~ Sex + Age + Group + Hypertension", "V3 ~ Sex + Age + Group + Hypertension".
-- The table contains the result of 3 models which contains mean and SD of group1&2, unstandardize_beta, p_value, 95% CI, Rsquare, Adj-Rsquare.
+- The table contains the result of 3 models which contains mean and SD of group1&2, unstandardize beta, p value, 95% CI, Rsquare, Adj-Rsquare.
 
 <p align="center">
   <img src="Example Picture/Multi-Regression.jpg">
