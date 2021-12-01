@@ -56,4 +56,4 @@ db_reg = function(data1 = data, x = independent_var, y = dependent_var){
 }
 
 final_result = db_reg(data1 = data, x = independent_var, y = dependent_var)
-
+write.csv(final_result, 'Reg_table.csv')
