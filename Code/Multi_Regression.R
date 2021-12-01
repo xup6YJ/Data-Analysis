@@ -15,7 +15,7 @@ db_reg = function(data1 = data, x = independent_var, y = dependent_var){
   result_matrix = matrix(0, nrow = length(y), ncol = 10)
   colnames(result_matrix) = c('mean_group1', 'sd_group1',
                               'mean_group2', 'sd_group2',
-                              'beta', 'p_value','95% lower bound','95% upper bound', 'rsquare',
+                              'unstandardize_beta', 'p_value','95% lower bound','95% upper bound', 'rsquare',
                               'Adj-rsquare')
   
   rownames(result_matrix) = y
