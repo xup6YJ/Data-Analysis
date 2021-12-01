@@ -15,7 +15,7 @@ Changing original data to GEE data using code ["GEE.R"](https://github.com/xup6Y
 ["Multi_Regression.R"](https://github.com/xup6YJ/Data-Analysis/blob/main/Code/Multi_Regression.R) is used for linear regression modeling, under the circumstance of analysing the same independent variables but different dependent variables. You could organize the table result in a short time by using our function.
 - Remember to read the original format of data ["Regression.csv"](https://github.com/xup6YJ/Data-Analysis/blob/main/Example%20Data/Regression.csv).
 - You should enter your dependent and independent variables.
-- Our example shows a LR result of "V1~Sex + Age + Group + Hypertension", "V2~Sex + Age + Group + Hypertension", "V3~Sex + Age + Group + Hypertension".
+- Our example shows a LR result of "V1~Sex + Age + Group + Hypertension" & "V2~Sex + Age + Group + Hypertension" & "V3~Sex + Age + Group + Hypertension".
 - The table contains the result of 3 models which contains 'mean_group1', 'sd_group1','mean_group2', 'sd_group2', 'unstandardize_beta', 'p_value', '95% lower bound', '95% upper bound', 'rsquare', 'Adj-rsquare'.
 
 <p align="center">
