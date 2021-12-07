@@ -12,11 +12,11 @@ Changing original data to GEE data using code ["GEE.R"](https://github.com/xup6Y
 </p>
 
 # Multi-Linear Regression
-["Multi_Regression.R"](https://github.com/xup6YJ/Data-Analysis/blob/main/Code/Multi_Regression.R) is used for linear regression modeling, under the circumstance of analysing the same independent variables but different dependent variables. You could organize the table result in a short time by using our function.
+["Multi_Regression.R"](https://github.com/xup6YJ/Data-Analysis/blob/main/Code/Multi_Regression.R) is used for linear regression modeling(multi-variable are allowed), under the circumstance of analysing the same independent variables but different dependent variables. You could organize the table result in a short time by using our function.
 - Remember to read the original format of data ["Regression.csv"](https://github.com/xup6YJ/Data-Analysis/blob/main/Example%20Data/Regression.csv).
 - You should enter your dependent and independent variables.
 - Our example shows a LR result of "V1 ~ Sex + Age + Group + Hypertension", "V2 ~ Sex + Age + Group + Hypertension", "V3 ~ Sex + Age + Group + Hypertension".
-- The table maily shows the result of 'Group'(we did not show the result of the adjusted variables) in 3 models which contains mean and SD of group1&2, unstandardize beta, p value, 95% CI, Rsquare, Adj-Rsquare.
+- The table maily shows the result of 'Group'(which explained the difference between case group & control group, we did not show the result of the adjusted variables) in 3 models  contains mean and SD of group1&2, unstandardize beta, p value, 95% CI, Rsquare, Adj-Rsquare.
 
 <p align="center">
   <img src="Example Picture/Multi-Regression.jpg">
