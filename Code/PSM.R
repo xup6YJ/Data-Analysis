@@ -1,5 +1,5 @@
 
-
+#Propensity Score Matching
 mydata <- read.csv('c_1009.csv')
 
 library(MatchIt)
