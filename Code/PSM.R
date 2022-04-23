@@ -36,7 +36,7 @@ vars <- c('time_onset' ,'siegle', 'SDRG', )
 fvars = c('sex' ,'hypertension')
 
 ## Construct a table
-tabUnmatched <- CreateTableOne(vars = vars, strata = "Chinese_med", data = m.data1, test = TRUE, factorVars = fvars)
+tabUnmatched <- CreateTableOne(vars = vars, strata = "chinese_med", data = m.data1, test = TRUE, factorVars = fvars)
 ## Show table with SMD
 x1 = print(tabUnmatched)
 x = print(tabUnmatched, smd = TRUE)
