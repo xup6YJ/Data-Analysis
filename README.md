@@ -29,3 +29,6 @@ Read and concatenate all the data in a folder using code ["Folder_data_concat.R"
 # Propensity Score Matching (PSM)
 Matching case/ control using code ["PSM.R"](https://github.com/xup6YJ/Data-Analysis/blob/main/Code/PSM.R).
 A common statical solution in matching case and control in a set up ratio. PSM attempts to reduce the bias due to confounding variables that could be found in an estimate of the treatment effect obtained from simply comparing outcomes among units that received the treatment versus those that did not. Paul R. Rosenbaum and Donald Rubin introduced the technique in 1983.
+
+# Survival Analysis (Cox PH Regression)
+["Survival.R"](https://github.com/xup6YJ/Data-Analysis/blob/main/Code/Survival.R))
